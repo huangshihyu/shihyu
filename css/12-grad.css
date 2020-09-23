@@ -1,0 +1,85 @@
+div{
+    width: 100%;
+    height: 100px;
+    margin: 10px;
+}
+.box1{
+    background: linear-gradient(#d89292, #e0a1d3, #b75bf5, #e45a8f);
+}
+.box2{
+    background: linear-gradient(to right, #d89292, #e0a1d3, #b75bf5, #e45a8f);
+}
+.box3{
+    background: linear-gradient(120deg, #d89292, #e0a1d3, #7c42a3, #e45a8f, #4646da);
+}
+.box4{
+    background: linear-gradient(to right, #d89292 20%, #e0a1d3, #b75bf5, #e45a8f 60%);
+}
+.box5{
+    background: linear-gradient(to left, rgb(100, 100, 170, 0.3), rgb(100, 100, 170));
+}
+.box6{
+    background: linear-gradient(217deg, rgba(223, 132, 132, 0.8), rgba(238, 61, 135, 0) 40%), 
+	linear-gradient(127deg, rgba(109, 236, 194, 0.8), rgba(34, 180, 173, 0) 60%), 
+    linear-gradient(336deg, rgba(221, 188, 80, 0.8), rgba(235, 209, 124, 0) 80%);
+}
+.box7{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(217deg, rgba(223, 132, 132, 0.8), rgba(238, 61, 135, 0) 40%), 
+	linear-gradient(127deg, rgba(109, 236, 194, 0.8), rgba(34, 180, 173, 0) 60%), 
+    linear-gradient(336deg, rgba(221, 188, 80, 0.8), rgba(235, 209, 124, 0) 80%);
+}
+.box8{
+    background: linear-gradient( #e45a8f83 50%, #5c5ce67a 50%), linear-gradient(to right, #e45a8f 50%, #5c5ce6 50%);
+    background-size: 20px 20px;
+}
+.box9{
+    background: repeating-linear-gradient( rgb(230, 151, 193), rgb(219, 90, 133) 25%);
+}
+.box10{
+    background: radial-gradient(rgb(248, 121, 248), rgb(230, 123, 36) 25%, rgb(229, 147, 147) 100%);
+}
+.box11{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: radial-gradient(rgb(248, 121, 248), rgb(230, 123, 36) 25%, rgb(229, 147, 147) 100%);
+}
+.box12{
+    width: 500px;
+    height: 100px;
+    background: radial-gradient( circle , #e45a8f83 10%, rgb(230, 123, 36) 25%, #5c5ce67a 50%);
+}
+.box13{
+    width: 500px;
+    height: 100px;
+    background: radial-gradient( at 80% 80px , #e45a8f83 10%, rgb(230, 123, 36) 25%, #5c5ce67a 50%);
+}
+.box14{
+    width: 500px;
+    height: 100px;
+    background: radial-gradient( circle at right bottom , #e45a8f83 10%, rgb(230, 123, 36) 25%, #5c5ce67a 50%);
+}
+.box15{
+    width: 500px;
+    height: 100px;
+    background: radial-gradient( circle at right bottom , #e45a8f83 10%, rgb(230, 123, 36) 25%, #5c5ce67a 50%);
+}
+.box16{
+    background: repeating-radial-gradient(circle, deeppink, orchid 8%, hotpink 16%, deeppink 25%);
+}
+.box17{
+    width: 600px;
+    height: 100px;
+    
+}
+h1{
+    background: linear-gradient(217deg, rgba(223, 132, 132, 0.8), rgba(216, 124, 162, 0.329) 20%), 
+	linear-gradient(127deg, rgb(71, 189, 150), rgba(111, 212, 207, 0.575) 40%), 
+    linear-gradient(336deg, rgba(221, 188, 80, 0.8), rgba(235, 209, 124, 0.253) 60%);
+    font-size: 100px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}

@@ -1,0 +1,68 @@
+div{
+    margin: 5px;
+}
+.box0{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(189, 114, 114);
+    outline: 1px solid #ff0000;
+    outline-offset: 2px;
+}
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(189, 114, 114);
+    box-shadow: 5px 5px 5px rgb(71, 42, 42);
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(189, 114, 114);
+    transition: .5s;
+    /* box-shadow: 5px 5px 5px rgb(71, 42, 42); */
+}
+.box2:hover{
+    box-shadow: 5px 5px 5px rgb(71, 42, 42);
+}
+
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(189, 114, 114);
+    transition: .5s;
+    /* box-shadow: 5px 5px 8px 3px rgb(71, 42, 42) inset; */
+}
+.box3:hover{
+    box-shadow: 5px 5px 5px rgb(71, 42, 42) inset;
+}
+
+.box4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(189, 114, 114);
+    transition: .5s;
+    box-shadow: 5px 5px 8px 3px rgb(71, 42, 42) inset;
+}
+
+.box5{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(189, 114, 114);
+    border-radius: 50%;
+    box-shadow: 0 0 10px #e4c4c4 inset, 0 0 20px #d89595 inset,0 0 30px  rgb(233, 137, 27) inset;
+}
+/* 多重陰影 用,分隔 前者覆蓋後者 */
+.box6{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(189, 114, 114);
+    border-radius: 50%;
+    box-shadow: 30px 30px 0 25px rgb(189, 114, 114) , 60px 0 0  rgb(189, 114, 114) ;
+}
+h3{
+    font-size: 50px;
+    color: #d89595;
+    text-shadow: 2px 2px 5px #854848;
+}

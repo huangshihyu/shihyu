@@ -1,0 +1,26 @@
+.box{
+    width: 300px;
+    height: 300px;
+    background: url(/img/back1.jpg) repeat;
+    border:10px dashed #e7b8b8;
+    padding: 20px;
+    margin: 10px;
+    float:left;
+}
+.border-box{
+    background-clip: border-box;
+}
+.padding-box{
+    background-clip: padding-box;
+}
+.content-box{
+    background-clip: content-box;
+}
+h1{
+    font-size: 100px;
+    background: url(/img/mosaic-3394375_640.jpg);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+/* 因應不同瀏覽器 文字的 background-clip: 要加前綴字*/
+/* 因float 會導致文繞圖效果 於是h1不用float */

@@ -1,0 +1,38 @@
+.box{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 1px;
+}
+.box1{    
+    background-color: rgb(126, 230, 212);
+    border-radius: 50%;
+}
+.box2{     
+    background-color: rgb(126, 201, 230);
+    border-radius: 25px;
+}
+.box3{
+    background-color: rgb(104, 132, 192);
+    border-radius: 10px 40px ;
+}
+.box4{
+    background-color: rgb(132, 107, 221);
+    border-radius: 10px 5px 30px;
+}
+.box5{
+    background-color: rgb(85, 67, 150);
+    border-radius: 10px 20px 30px 40px;
+}
+.box6{
+    background-color: rgb(160, 103, 212);
+    border-radius: 100% 0 0 0;
+}
+.box7{
+    background-color: rgb(140, 87, 190);
+    border-radius: 15px/25px;
+}
+/*  border-radius:沒給的值會吃對角 
+                  給分數是特殊形態
+class 名子給兩個可分開設定
+float 如果設定一個 下一個會往前覆蓋 所以要全設定 才可併行*/

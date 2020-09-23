@@ -1,0 +1,61 @@
+.con {
+    display: flex;
+    width: 100%;
+}
+
+.box {
+    margin: 10px;
+    background-color: rosybrown;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+/* 超過寬度以省略號隱藏 */
+
+.box1 {
+    margin: 10px;
+    background-color: rgb(121, 177, 174);
+    /* text-overflow: ellipsis; */
+    overflow: hidden;
+    /* white-space: nowrap; */
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    color: purple;
+}
+/* 超過寬度以及設定行數後省略號隱藏 */
+.con1{
+    width: 80%; 
+}
+p{
+    border: 1px solid palevioletred;
+    color: seagreen;
+}
+/* 以下是 設定斷行方式 在超過設定寬度時 文字太長回出界 只有break-all不會*/
+.normal{
+    word-break: normal;
+}
+.breakall{
+    word-break: break-all;
+}
+.keepall{
+    word-break: keep-all;
+}
+/* 以下是 自動截斷字 在超過設定寬度時 */
+.wrap1{
+    word-break: normal;
+}
+.wrap2{
+    word-wrap: break-word;
+}
+/* 請往下看 下面是外接字型 */
+@font-face { 
+	font-family: BALLOONS; 
+	src: url("/font/BALLOONS.TTF"); 
+}
+
+h1{ 
+	font-size: 40px; 
+	font-family: BALLOONS;
+}

@@ -1,0 +1,30 @@
+.map{
+    width: 800px;
+    height: 450px;
+    background-image: url(/img/map1.jpg);
+    margin: 20px auto;
+}
+
+.map:hover{
+    background: url(/img/1.png) center center no-repeat, url(/img/2.png) 80% center no-repeat, url(/img/3.png) 30% 60% no-repeat, url(/img/map1.jpg);
+    background-size: 10%, 10%, 10%, auto;
+}
+
+.city{
+    width: 800px;
+    height: 300px;
+    background: url(/img/city.jpg)  center center no-repeat;
+    background-size: 300px 300px;
+    margin: 0 auto;
+    outline:1px solid rgb(0, 0, 0);
+}
+.auto{
+    background-size: 300px auto;
+}
+.contain{
+    background-size: contain;
+}
+.cover{
+    background-size: cover;
+}
+/* 可以在主要class的地方調整postion來影響cover的顯示位置 */

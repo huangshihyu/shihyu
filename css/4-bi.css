@@ -1,0 +1,9 @@
+div{
+    background-color: rgb(233, 190, 190);
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 20px solid transparent;
+    border-image: url("/img/border-image.png") 20 round;
+}
