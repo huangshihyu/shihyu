@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <!-- toggler 後 選單消失 -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <a class="navbar-brand ml-5 " href="#">
+            <img id="logo" src="./img/logo.svg" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto mr-5">
+                <a class="nav-item nav-link text-dark px-2" href="#about-us">關於我們</a>
+                <a class="nav-item nav-link text-dark px-2" href="./adopt.html">領養專區</a>
+                <a class="nav-item nav-link text-dark px-2" href="#">相關文章</a>
+                <a class="nav-item nav-link text-dark px-2" href="#contact-us">聯絡我們</a>
+            </div>
+        </div>
+    </nav>
+    <!-- slider -->
+    <div id="hero" class="container-fluid slider-wrap mx-auto position-relative">
+        <ul class="wrap-img list-unstyled">
+            <li><img src="./img/nav-pic1.jpg" alt=""></li>
+            <li><img src="./img/nav-23.png" alt=""></li>
+            <li><img src="./img/navpic4.jpg" alt=""></li>
+            <li><img src="./img/nav-pic5.jpg" alt=""></li>
+        </ul>
+        <ul class="slide-dots position-absolute list-unstyled d-flex justify-content-center w-100">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div class="title mx-auto position-absolute">
+            <h2>歡迎來到毛米<br>
+                毛孩小天地</h2>
+            <h4 class="my-3 py-2">在這找到一生的陪伴</h4>
+            <p>必須要嚴肅認真的看待。寵物勢必能夠左右未來。仔細想想，我對寵物的理解只是皮毛而已。
+            </p>
+        </div>
+    </div>
+
+    <div class="container-fluid tnr">
+    </div>
+    <!--視差 -->
+    <div class="container py-3 mb-5">
+
+        <div class="row justify-content-between py-2">
+            <!-- 超連結 -->
+            <a href="./adopt.html" class="col-12 text-center text-dark my-3">
+                <h2>領養專區</h2>
+            </a>
+
+            <div class="col-lg-3 col-md-4 col-6 my-3 p-2">
+                <div class="card">
+                    <div class="pic">
+                        <img src="./img/puppy-1118584_640.jpg">
+                    </div>
+
+                    <div class="adopt-info px-1">
+                        <h6>小黃</h6>
+                        <p>男生，四個月大</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 my-3 p-2">
+                <div class="card">
+                    <div class="pic">
+                        <img src="./img/dog-5625217_640.jpg">
+                    </div>
+
+                    <div class="adopt-info px-1">
+                        <h6>小＋久</h6>
+                        <p>男生，四個月大</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 my-3 p-2">
+                <div class="card">
+                    <div class="pic">
+                        <img src="./img/dog-715545_640.jpg">
+                    </div>
+
+                    <div class="adopt-info px-1">
+                        <h6>小黃</h6>
+                        <p>男生，四個月大</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 my-3 p-2">
+                <div class="card">
+                    <div class="pic">
+                        <img src="./img/dog-4135347_640.jpg">
+                    </div>
+
+                    <div class="adopt-info px-1">
+                        <h6>小黃</h6>
+                        <p>男生，四個月大</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 my-3 p-2">
+                <div class="card">
+                    <div class="pic">
+                        <img src="./img/snow-leopard-1006542_640.jpg">
+                    </div>
+
+                    <div class="adopt-info px-1">
+                        <h6>小白</h6>
+                        <p>男生，二歲大</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 my-3 p-2">
+                <!-- Button trigger modal -->
+                <div class="card" data-toggle="modal" data-target="#exampleModal">
+                    <div class="pic">
+                        <img src="./img/tiger-2535888_640.jpg">
+                    </div>
+
+                    <div class="adopt-info px-1">
+                        <h6>小黃黃</h6>
+                        <p>男生，四歲大</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 my-3 p-2 card-hide">
+                <div class="card">
+                    <div class="pic">
+                        <img src="./img/cat-4864605_640.jpg">
+                    </div>
+
+                    <div class="adopt-info px-1">
+                        <h6>小黑</h6>
+                        <p>女生，四個月大</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 my-3 p-2 card-hide">
+                <div class="card ">
+                    <div class="pic">
+                        <img src="./img/cats-5606202_640.jpg">
+                    </div>
+
+                    <div class="adopt-info px-1">
+                        <h6>小黑</h6>
+                        <p>男生，四個月大</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">認識小黃黃</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <div class="modal-body d-flex">
+                        <div class="col-8">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active w-100">
+                                        <img src="./img/tiger-3424791_640.jpg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item w-100">
+                                        <img src="./img/tiger-2535888_640.jpg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item w-100">
+                                        <img src="./img/tiger-640.png" class="d-block w-100">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <h5>小黃黃</h5>
+                            <p>今年四歲</p>
+                            <p>領養注意事項生活環境要求個性如何巴拉巴拉<br>為什麼出現在毛米領養平台摳憐的過往貓生</p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">再考慮</button>
+                        <button type="button" class="btn btn-info">選我！</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 領養步驟  svg 轉圈圈-->
+    <div class="container-fluid py-3  position-relative" style="background-color: #fff4e1;">
+        <div class="row justify-content-around flex-md-row flex-sm-column">
+
+            <div class="col-12 d-flex justify-content-md-start justify-content-sm-center">
+                <h2 class="my-3 mb-4 px-5 text-center w-100">領養步驟</h2>
+            </div>
+            <div class="col-md-3 col-sm-12 pb-4">
+                <div class="adopt-step position-relative d-flex justify-content-center">
+                    <svg width="250" height="250">
+                        <circle class="circle cir0" cx="125" cy="125" r="120" fill="none" stroke="#d9d0c1"
+                            stroke-width="10" stroke-linecap="round" transform="rotate(-90 125 125)"></circle>
+                    </svg>
+                    <div class="step-info text-center">
+                        <h4>尋找緣分</h4>
+                        <p>毛孩出發前，毛米事先健檢與施打預防針。</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12 pb-4">
+                <div class="adopt-step position-relative d-flex justify-content-center ">
+                    <svg width="250" height="250">
+                        <circle class="circle cir1" cx="125" cy="125" r="120" fill="none" stroke="#d9d0c1"
+                            stroke-width="10" stroke-linecap="round" transform="rotate(-90 125 125)"></circle>
+
+                    </svg>
+                    <div class="step-info text-center">
+                        <h4>訪談</h4>
+                        <p>基本資料詢問，以及未來規劃。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12 pb-4">
+                <div class="adopt-step position-relative d-flex justify-content-center"><svg width="250" height="250">
+                        <circle class="circle cir2" cx="125" cy="125" r="120" fill="none" stroke="#d9d0c1"
+                            stroke-width="10" stroke-linecap="round" transform="rotate(-90 125 125)"></circle>
+                    </svg>
+                    <div class="step-info text-center">
+                        <h4>家訪</h4>
+                        <p>看領養人家是否適合寵物生活。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12 pb-4">
+                <div class="adopt-step position-relative d-flex justify-content-center"><svg width="250" height="250">
+                        <circle class="circle cir3" cx="125" cy="125" r="120" fill="none" stroke="#d9d0c1"
+                            stroke-width="10" stroke-linecap="round" transform="rotate(-90 125 125)"></circle>
+                    </svg>
+                    <div class="step-info text-center">
+                        <h4>搭拉</h4>
+                        <p>定期照片回報。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row arrow position-absolute flex-md-row flex-sm-column w-100">
+            <div class="col-md-4 col-sm-12 d-flex justify-content-md-end justify-content-sm-center arrow1">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                    <title>arrow-right2</title>
+                    <path
+                        d="M19.414 27.414l10-10c0.781-0.781 0.781-2.047 0-2.828l-10-10c-0.781-0.781-2.047-0.781-2.828 0s-0.781 2.047 0 2.828l6.586 6.586h-19.172c-1.105 0-2 0.895-2 2s0.895 2 2 2h19.172l-6.586 6.586c-0.39 0.39-0.586 0.902-0.586 1.414s0.195 1.024 0.586 1.414c0.781 0.781 2.047 0.781 2.828 0z"
+                        fill="#594e3f">
+                    </path>
+                </svg>
+            </div>
+            <div class="col-md-4 col-sm-12 d-flex justify-content-center arrow2">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                    <title>arrow-right2</title>
+                    <path
+                        d="M19.414 27.414l10-10c0.781-0.781 0.781-2.047 0-2.828l-10-10c-0.781-0.781-2.047-0.781-2.828 0s-0.781 2.047 0 2.828l6.586 6.586h-19.172c-1.105 0-2 0.895-2 2s0.895 2 2 2h19.172l-6.586 6.586c-0.39 0.39-0.586 0.902-0.586 1.414s0.195 1.024 0.586 1.414c0.781 0.781 2.047 0.781 2.828 0z"
+                        fill="#594e3f">
+                    </path>
+                </svg>
+            </div>
+            <div class="col-md-4 col-sm-12 d-flex justify-content-md-start justify-content-sm-center arrow3">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                    <title>arrow-right2</title>
+                    <path
+                        d="M19.414 27.414l10-10c0.781-0.781 0.781-2.047 0-2.828l-10-10c-0.781-0.781-2.047-0.781-2.828 0s-0.781 2.047 0 2.828l6.586 6.586h-19.172c-1.105 0-2 0.895-2 2s0.895 2 2 2h19.172l-6.586 6.586c-0.39 0.39-0.586 0.902-0.586 1.414s0.195 1.024 0.586 1.414c0.781 0.781 2.047 0.781 2.828 0z"
+                        fill="#594e3f">
+                    </path>
+                </svg>
+            </div>
+
+        </div>
+    </div>
+    <div id="about-us" class="container-fluid py-3 about-us">
+        <div class="row">
+            <div class="col-lg-10 col-md-10 col-sm-12 d-flex justify-content-md-end justify-content-sm-center">
+                <h2 class="my-3 mb-4 px-5 text-center">關於我們</h2>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 px-5 ml-auto">
+                <div class="about-info mx-auto py-5 px-4">
+                    <h4>歡迎來到毛米<br>
+                        毛孩小天地</h4>
+                    <h6 class="my-3 py-2">在這找到一生的陪伴</h6>
+                    <p>一般來講，我們都必須務必慎重的考慮考慮。寵物對我來說有著舉足輕重的地位，必須要嚴肅認真的看待。寵物勢必能夠左右未來。如果此時我們選擇忽略寵物，那後果可想而知。我以為我了解寵物，但我真的了解寵物嗎？仔細想想，我對寵物的理解只是皮毛而已。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="container py-3">
+        <div class="row">
+            <div id="contact-us">
+                <h2 class="my-3 mb-4 px-5 text-center">聯絡我們</h2>
+            </div>
+        </div>
+        <div class="row justify-content-between">
+
+
+            <form class="col-lg-3 col-md-2 col-sm-6 col-12 py-2">
+                <h4>來信諮詢</h4>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">提問類型</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>事前準備</option>
+                        <option>幼獸照護問題</option>
+                        <option>一直亂叫</option>
+                        <option>亂上廁所</option>
+                        <option>其他</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">內容</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+            </form>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 py-2">
+                <div class="contact-info ml-auto">
+                    <h4>Call in服務</h4>
+                    <p><span>服務時間：</span><br>星期一 ～ 星期六<br> 7:00 ~ 16:30</p>
+                    <p><span>服務地址：</span><br>110台北市信義區松仁路吳興街口</p>
+                    <p><span>聯絡電話：</span><br>02-3366905442</p>
+                    <p><span>LINE ID：</span><br>＠kfogjoweohjf</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-md-end justify-content-sm-center">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.2986587996957!2d121.56737590064988!3d25.023936694770043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442aa4d3e902239%3A0xe1ae2549fbfc1294!2zMTEw5Y-w5YyX5biC5L-h576p5Y2A5p2-5LuB6Lev5ZCz6IiI6KGX5Y-j5YWt5ZCI57ag5Zyw!5e0!3m2!1szh-TW!2stw!4v1603112558770!5m2!1szh-TW!2stw"
+                    width="500" height="375" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid copy-right d-flex align-items-center py-2 mt-4">
+        <div class="col-12 text-center">
+            <span>Copyright © 2020 RMEME. All rights reserved.</span>
+            <p class="my-0">&nbsp;</p>
+            <span>版權所有© 2020 嗄瓦肥</span>
+        </div>
+    </div>
+    <a href="#hero" class="fixed-bottom top-btn"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32"
+            height="32" viewBox="0 0 32 32">
+            <title>circle-up</title>
+            <path
+                d="M0 16c0 8.837 7.163 16 16 16s16-7.163 16-16-7.163-16-16-16-16 7.163-16 16zM29 16c0 7.18-5.82 13-13 13s-13-5.82-13-13 5.82-13 13-13 13 5.82 13 13z">
+            </path>
+            <path d="M22.086 20.914l2.829-2.829-8.914-8.914-8.914 8.914 2.828 2.828 6.086-6.086z"></path>
+        </svg></a>
+
+
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script> -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script>
+        let cirtop = $('.adopt-step').offset().top;
+        let index = 0;
+        let scrolllast = 0
+        // narbar.hide
+        $(window).scroll(function () {
+            let scrollnow = $(this).scrollTop();
+
+            if (scrollnow > scrolllast) {
+                $('nav').addClass('hide');
+            }
+            else {
+                $('nav').removeClass('hide');
+            }
+            scrolllast = scrollnow;
+        })
+
+        // 輪播--------已完成--------
+        $('.slide-dots li').first().css('background', '#d9d0c1')
+        $('li img').css('opacity', '0')
+        $('li img').first().css('opacity', '1')
+
+        $('.slide-dots li').hover(function () {
+            console.log('hi', $(this).index())
+            $(this).css('background', '#d9d0c1').siblings().css("background", "none");
+            $('li img').css('opacity', '0').eq($(this).index()).css('opacity', '1');
+        })
+
+        setInterval(function () {
+            if (index > 3) {
+                index = 0;
+            }
+            $('li img').css('opacity', '0').eq(index).css('opacity', '1');
+            $('.slide-dots li').css('background', 'none').eq(index).css("background", "#d9d0c1");
+
+            index = index + 1;
+        }, 3000)
+        // card
+        $('.card').hover(function () {
+            console.log('nihao')
+            $(this).addClass('big');
+        }, function () {
+            console.log('bye')
+            $(this).removeClass('big');
+        })
+        // 炫砲轉圈圈  ---------- 
+        $(window).on('scroll', function () {
+            let scrolltop = $(window).scrollTop()
+            console.log(scrolltop);
+            if (scrolltop > 1700) {
+                $('.cir0').addClass('active');
+                $('.cir1').addClass('active');
+                $('.cir2').addClass('active');
+                $('.cir3').addClass('active');
+            }
+            else {
+                $('.circle').removeClass('active');
+            }
+        });
+        // top-btn
+        $(window).scroll(function () {
+            let scrolltop = $(window).scrollTop()
+            if (scrolltop > 700) {
+                $('.top-btn').css('opacity', '1');
+            }
+            else {
+                $('.top-btn').css('opacity', '0');
+            }
+        })
+
+    </script>
+</body>
+
+</html>
